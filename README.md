@@ -77,10 +77,8 @@ The server runs at `http://localhost:5000`.
 ```
 
 ### DELETE `/events/2`
-**Response — 200 OK**
-```json
-{ "message": "Event 2 deleted successfully" }
-```
+**Response — 204 No Content** (empty body)
+
 **Event not found — 404 Not Found**
 ```json
 { "error": "Event with id 2 not found" }
